@@ -1,0 +1,15 @@
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\dotnet.exe
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\dotnet.deps.json
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\dotnet.runtimeconfig.json
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\dotnet.dll
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\dotnet.pdb
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.csproj.AssemblyReference.cache
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.AssemblyInfo.cs
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.dll
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\refint\dotnet.dll
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.pdb
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.genruntimeconfig.cache
+C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\ref\dotnet.dll
