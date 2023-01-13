@@ -81,7 +81,7 @@ public class Program{
         int.TryParse("7", out int saida);
         #endregion
 
-        #region laço, loops
+        #region Laço, loops
         int indice = 0;
         for (indice = 0; indice < nomes.Length; indice++)
         {
@@ -109,7 +109,7 @@ public class Program{
             System.Console.WriteLine(l.ToString());
         #endregion
 
-        #region tipos de referência e tipos de valor
+        #region Tipos de referência e tipos de valor
             //classes são tipos de referência
             Test test1 = new Test();
             test1.x = 10;
@@ -124,7 +124,7 @@ public class Program{
 
         #endregion,
 
-        #region tipos anuláveis
+        #region Tipos anuláveis
         //para anular tipos de referência utilize a palavra null
         Test test3 = new Test();
         test3 = null;
@@ -144,7 +144,7 @@ public class Program{
         System.Console.WriteLine(valor_anulavel.GetValueOrDefault(2));//define um valor default para caso inteiro nulo
         #endregion
 
-        #region tratamento de exceções
+        #region Tratamento de exceções
         //referencia nula
         try{
             string? string_nula2 = null;
@@ -166,24 +166,200 @@ public class Program{
         #endregion
 
         #region Classes e campos (fields)
-        BankAccount conta1 = new BankAccount("Joao",100);
-        BankAccount conta2 = new BankAccount("Maria",100);
-        
+        ILogger logger = new FileLogger("outro-log.txt");//instanciando a classe concreta e não a interface
+        BankAccount conta1 = new BankAccount("Joao",100,logger);
+        BankAccount conta2 = new BankAccount("Maria",100,logger);
+
+        conta1.Deposit(-100);
+        conta2.Deposit(100);
+        System.Console.WriteLine(conta2.Balance);
+        //ILogger logger = new ILogger()://Não é possível criar instancia do tipo abstrato interface
+        #endregion
+
+        #region Tipos genéricos
+        //LISTAS de qualquer tipo, por exemplo, contas
+        //podem ser inicializadas assim
+        List<BankAccount> contas = new List<BankAccount>
+        {
+            conta1,
+            conta2
+        };
+        //itens podem ser adicionados ou removidos
+        //contas.Add(conta1);
+        //contas.Add(conta2);
+        contas.Remove(conta1);
+        foreach(BankAccount conta in contas){
+            System.Console.WriteLine(conta.Balance);
+        }
+        //ou podem ser inicializadas assim
+        //LISTA de inteiro exemplo
+        List<int> numeros = new List<int>(){1,4,8,10};
+        foreach(int numero in numeros){
+            System.Console.WriteLine(numero);
+        }
+
+        //criar tipos genéricos
+        //generico pra int
+        DataStore<int> store_int = new DataStore<int>();
+        store_int.Value = 42;
+        System.Console.WriteLine(store_int.Value);
+
+        //generico pra string
+        DataStore<string> store_str = new DataStore<string>();
+        store_str.Value = "teste";
+        System.Console.WriteLine(store_str);
+        //chamar método
+        System.Console.WriteLine(store_str.Value.Length);
+        #endregion
+
+        #region Uso da palvra var
+        //a variável vai ser do tipo da expressão da direita
+        var novo_logger = new FileLogger("novo_log.txt");
+        var data_store = new DataStore<string>();
+        data_store.Value = "Usando var";
+
+        var nova_conta = new BankAccount("Nova Conta",100,novo_logger);
+
+        var var_contas = new List<BankAccount>{
+            conta1,
+            conta2,
+            nova_conta
+        };
+        #endregion
+
+        #region Delegates
+        //São objetos que sabem executar métodos
+        //armazenar métodos em variáveis ou passar métodos como argumento
+        var calculo = new Calcular(Soma);
+        var result = calculo(2,1);
+        System.Console.WriteLine(result);
+
+        //método anonimo
+        var multiplicacao = delegate (int x, int y) { return x * y; };
+        System.Console.WriteLine(multiplicacao(10,5));
+
+        //passando o método anonimo pra uma funcao
+        Rodar(multiplicacao);
+
+        //Action: Delegate void que não retorna nada
+        Action<string> test_nome = delegate (string name){
+            System.Console.WriteLine($"\n Olá {name}");
+        };
+        test_nome("Levi");
+
+        //Func: Delegate de algum tipo que retorna algum valor
+        Func<decimal> test_decimal = delegate{ return 4.2m; };//Esse m é para especificar um decimal
+        System.Console.WriteLine(test_decimal());
+
+        Func<string,bool> checar_nome = delegate(string nome){
+            return nome.Contains('a');
+        };
+        checar_nome("Levi");
+
+        #endregion
+
+        #region Expressões lambda
+        //exemplo de uso da expressão lambda
+        //reescrevendo as funções dos delegates usando lambda
+        var nova_multiplicacao = (int x, int y) => { return x * y; };
+        Rodar(nova_multiplicacao);
+        //quando possui somente uma declaração no corpo, pode ser abstraído pra
+        var outra_multiplicacao = (int x, int y) => x*y;
+
+        var nova_string = (string nome) => System.Console.WriteLine($"\n Olá {nome}");
+        nova_string("Levi");
+
+        Func<decimal> novo_decimal = () => 4.2m;
+
+        var checar_nome_novo = (string novo_nome) => novo_nome.Contains('a');
+        System.Console.WriteLine(checar_nome_novo("Levi"));
+        //ou assim, são equivalentes
+        Func<string,bool> checar_nome_novo2 = novo_nome => novo_nome.Contains('a');
+        System.Console.WriteLine(checar_nome_novo2("Levi"));
+
+        //Passando lambda direto pra método
+        Rodar((x,y) => x*y);
+
         #endregion
     }
+
+    //método usando a palavra Func
+    static void Rodar(Func<int,int,int> calculo){
+        System.Console.WriteLine(calculo(20,30));
+    }
+
+    //método compatível com delegate
+    static int Soma(int a, int b){
+        return a+b;
+    }
+}
+
+//Criando um delegate: delegate <tipo_retorno>
+delegate int Calcular(int x, int y);
+
+//Criando tipo generico: class <nome><palavra reservada T>
+class DataStore<T>
+{
+    public T Value{get;set;}
+}
+
+class FileLogger : ILogger //outra classe concreta implementando a interface
+{
+    private readonly string filePath;
+
+    public FileLogger(string filePath)
+    {
+        this.filePath = filePath;
+    }
+    public void Log(string message)
+    {
+        File.AppendAllText(filePath, message);//gera um arquivo de log
+    }
+}
+
+class ConsoleLogger : ILogger //classe concreta implementando a interface
+{
+    public void Log(string message)
+    {
+        System.Console.WriteLine($"\n LOGGER: {message}{Environment.NewLine}");
+    }
+}
+
+interface ILogger//por padrão todos os membros da interface são publicos
+{
+    void Log(string message);//métodos abstratos por padrão não tem corpo,mas no c# 8 em diante pode ter uma implementacao
+    //exemplificando implementacao padrao
+    /*void Log(string message){
+        System.Console.WriteLine($"\n LOGGER: {message}{Environment.NewLine}");
+    }*/
 }
 
 class BankAccount //declaração de uma classe
 {
     private string _nome;        //campos privados
-    private decimal _balance;
+    private readonly ILogger logger; //criando o logger
 
-    public BankAccount(string nome, decimal balance){
+    public decimal Balance 
+    { 
+        get; private set;
+    }
+
+    public BankAccount(string nome, decimal balance, ILogger logger){
         if(string.IsNullOrWhiteSpace(nome))
-            throw new Exception("Nome inválido");
+            throw new ArgumentException("Nome inválido",nameof(nome));
         if(balance < 0)
             throw new Exception("Saldo não pode ser negativo");
         this._nome = nome;
-        this._balance = balance;
+        Balance = balance;
+        this.logger = logger; //interface readonly só pode ser atribuida no construtor, fora acusa erro
+    }
+
+    public void Deposit(decimal amount)//mexer na variável direto não é correto, pra isso cria-se um método
+    {
+        if(amount <= 0){
+            logger.Log($"Não é possível depositar {amount} na conta de {_nome}");
+            return;
+        }
+        Balance += amount;//soma composta com atribuição
     }
 }
