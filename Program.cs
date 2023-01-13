@@ -1,4 +1,8 @@
-﻿#region TopLevelStatements
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
+using testando_namespace;
+
+#region TopLevelStatements
 // //Writeline
 // Console.WriteLine("Console: Hello, World!");
 
@@ -38,8 +42,8 @@ class Test
     public int x;
 }
 
-public class Program{
-    static void Main(string[] argumentos)//esse método precisa ser statico e precisa ter a primeira letra maiúscula
+class Program{
+    static async void Main(string[] argumentos)//esse método precisa ser statico e precisa ter a primeira letra maiúscula
     {
         #region Arrays
         string[] nomes = {  "Levi", "Maria" };
@@ -212,7 +216,7 @@ public class Program{
         System.Console.WriteLine(store_str.Value.Length);
         #endregion
 
-        #region Uso da palvra var
+        #region Uso da palavra var
         //a variável vai ser do tipo da expressão da direita
         var novo_logger = new FileLogger("novo_log.txt");
         var data_store = new DataStore<string>();
@@ -225,6 +229,10 @@ public class Program{
             conta2,
             nova_conta
         };
+
+        foreach(var var_conta in var_contas){
+            System.Console.WriteLine(var_conta.Balance);
+        }
         #endregion
 
         #region Delegates
@@ -281,6 +289,150 @@ public class Program{
         Rodar((x,y) => x*y);
 
         #endregion
+
+        #region Métodos de extensão
+        //Extender qualquer tipo, criando métodos de extensão
+        //extender tipos de valor ou tipos selados (tipos que não temos controle)
+        //métodos de extensão existem graças aos métodos estáticos
+        //método de extensão, tem a inclusão da palavra this no primeiro parametro
+        //o this só pode ser usado no primeiro parametro
+        //que é o parametro onde o método vai ser acessivel
+        //agora podemos chamar direto de uma string UAU
+        "Teste direto da string".WriteLine(ConsoleColor.Blue);
+        //método limpando o valor da string
+        System.Console.WriteLine($"Valor da string: {"String limpa".LimpaString()}");
+        //testando num logger
+        var extensao_logger = new ConsoleLogger();
+        extensao_logger.TestLogger();
+        //Sempre ficar atento ao namespace
+        #endregion
+
+        #region Serialização JSON
+        //usa namespace System.Text.JSON
+        BankAccount conta_serializar = new BankAccount("JSON",100,logger);
+        //Quando serializa uma instancia de classe ele segue a visibilidade definida
+        //ou seja, campos privados n aparecem no JSON
+        //campos publicos vao aparecer
+
+        //Serializando uma instancia
+        string json = JsonSerializer.Serialize(conta_serializar);
+        Console.WriteLine(json);
+
+        //Deserializando uma instancia
+        //Como esse construtor espera espera parametros como loger, vai dar errro se
+        //não sinalizarmos o novo construtor com a tag JsonConstructor
+        BankAccount conta_deserializada = JsonSerializer.Deserialize<BankAccount>(json);
+        System.Console.WriteLine(conta_deserializada.Balance);
+
+        #endregion
+
+        #region LINQ (Query Integrated Language) e Enumerables
+        // Conjunto de tecnologias que permite que a gente crie consultas em coleções
+        // documentos XML ou até mesmo banco de dados, usando somente codigo C#
+        
+        //exemplo com inteiros
+        int[] array_numeros = {0,5,10,15,20,25,30};
+        //consultar buscar os números menores que 10
+        //Sintaxe de consulta (Query Syntax)
+        var consulta = from numero in array_numeros
+                        where  numero < 10
+                        select numero;
+
+        //LINQ usando lambda e método de extensão Where
+        var consulta2 = array_numeros.Where(numero => numero < 10);
+        //System.Console.WriteLine(consulta2);
+
+        //métodos que chamam novamente a query podem aumentar muito o tempo de processamento
+        foreach(var number in consulta2){//chamar consulta2 vai rodar a query denovo
+            System.Console.WriteLine(number);
+        }
+        //para contornar esse problema usamos método To
+        var resultado = consulta2.ToList();//a consulta é executada somente uma vez e então manipulamos o resultado
+        System.Console.WriteLine(resultado.Count());
+
+        //contornando só o resultado
+        foreach(var number in resultado)
+        {
+            System.Console.WriteLine(number);
+        }
+
+        //retorna o primeiro elemento da soleção
+        var resultado2 = array_numeros.First();
+        //da pra encadear os métodos
+        var resultado3 = array_numeros.Where(number => number > 8).First();
+        //também da pra fazer assim
+        var resultado4 = array_numeros.First(number => number > 8);
+        //primeiro elemento ou padrão (como é inteiro o valor vai ser 0)
+        var resultado5 = array_numeros.FirstOrDefault(number => number > 50);
+        //ordenar os itens da coleção
+        var resultado6 = array_numeros.OrderByDescending(number => number);
+        //ordenar por campo especifico
+        var outras_contas = new List<BankAccount>(){
+            new BankAccount("Maria", 70){
+                Branch="123"
+            },
+            new BankAccount("Levi", 50){Branch="321"},
+            new BankAccount("Maite",100){Branch="321"}
+        };
+        var acc = outras_contas.OrderBy(conta => conta.Balance).ToArray();
+
+        //criar agrupamentos
+        var grupos = outras_contas.GroupBy(account => account.Branch);
+
+        foreach(var group in grupos){
+            System.Console.WriteLine($"Agencia: {group.Key}");
+            System.Console.WriteLine("---");
+            foreach(var account in group){
+                System.Console.WriteLine($"{account.Name} possui ${account.Balance}");
+            }
+            System.Console.WriteLine("---");
+        }
+
+        //Select, pegar somente os nomes dos titulares
+        var nomes_titulares = outras_contas.Select(conta => conta.Name);
+        //usando método anonimo no select
+        var titulares = outras_contas.Select(conta => new {conta.Name, conta.Branch});
+        foreach(var titular in titulares){
+            System.Console.WriteLine(titular.Name);
+        }
+
+        //enum vazio
+        var enum_vazio = Enumerable.Empty<int>();
+
+        //usando range
+        var random = new Random();
+        var range = Enumerable.Range(0,5);
+        //usando o range para pegar 5 números aleatórios de 1 a 99
+        var range_random = Enumerable.Range(0,5).Select(number => random.Next(1, 100));
+        //para o exemplo acima da pra usar parâmetro discard também, descartável, usando _
+        var random_random_com_discard = Enumerable.Range(0,5).Select(_ => random.Next(0, 100));
+
+        #endregion
+
+        #region Programação Assíncrona
+        //uma operação sincrona vai fazer todo o seu trabalho antes de retornar, a aplicação fica
+        System.Console.WriteLine("Exemplificando um método sincrono, thread.sleep, executando...");
+        Thread.Sleep(5000);
+        System.Console.WriteLine("Pronto");
+        //uma operação assincrona vai fazer parte ou todo o seu trabalho depois de retornar pra quem inciou a operacao
+        //Classe task abstrai a classe de baixo nível Thread, facilitando as async
+        System.Console.WriteLine("Exemplificando um método assincrono, thread.sleep, executando...");
+        //o que a gente passar pro método run vai ser executado de forma assincrona
+        //
+        /*var task = Task.Run(() => 
+        {
+            Thread.Sleep(5000);
+            System.Console.WriteLine("Acordou");
+        });
+        System.Console.WriteLine("Pronto");
+        System.Console.ReadLine();*/
+        await rodar_async();
+        Console.ReadKey();
+        #endregion
+
+        #region Para publicar a aplicação
+        //dotnet publish
+        #endregion
     }
 
     //método usando a palavra Func
@@ -292,74 +444,120 @@ public class Program{
     static int Soma(int a, int b){
         return a+b;
     }
-}
 
-//Criando um delegate: delegate <tipo_retorno>
-delegate int Calcular(int x, int y);
-
-//Criando tipo generico: class <nome><palavra reservada T>
-class DataStore<T>
-{
-    public T Value{get;set;}
-}
-
-class FileLogger : ILogger //outra classe concreta implementando a interface
-{
-    private readonly string filePath;
-
-    public FileLogger(string filePath)
-    {
-        this.filePath = filePath;
-    }
-    public void Log(string message)
-    {
-        File.AppendAllText(filePath, message);//gera um arquivo de log
+    //método com palavra reservada async, permitindo usar a palaavra await em Task métodos
+    //métodos assincronos sempre retornam uma task
+    static async Task<int> rodar_async(){
+        System.Console.WriteLine("Executando...");
+        var task = await Task.Run(() => 
+        {
+            Thread.Sleep(5000);
+            System.Console.WriteLine("Acordou...");
+            return 42;
+        });
+        var result = task;
+        return result;
     }
 }
 
-class ConsoleLogger : ILogger //classe concreta implementando a interface
-{
-    public void Log(string message)
-    {
-        System.Console.WriteLine($"\n LOGGER: {message}{Environment.NewLine}");
-    }
-}
-
-interface ILogger//por padrão todos os membros da interface são publicos
-{
-    void Log(string message);//métodos abstratos por padrão não tem corpo,mas no c# 8 em diante pode ter uma implementacao
-    //exemplificando implementacao padrao
-    /*void Log(string message){
-        System.Console.WriteLine($"\n LOGGER: {message}{Environment.NewLine}");
-    }*/
-}
-
-class BankAccount //declaração de uma classe
-{
-    private string _nome;        //campos privados
-    private readonly ILogger logger; //criando o logger
-
-    public decimal Balance 
-    { 
-        get; private set;
-    }
-
-    public BankAccount(string nome, decimal balance, ILogger logger){
-        if(string.IsNullOrWhiteSpace(nome))
-            throw new ArgumentException("Nome inválido",nameof(nome));
-        if(balance < 0)
-            throw new Exception("Saldo não pode ser negativo");
-        this._nome = nome;
-        Balance = balance;
-        this.logger = logger; //interface readonly só pode ser atribuida no construtor, fora acusa erro
-    }
-
-    public void Deposit(decimal amount)//mexer na variável direto não é correto, pra isso cria-se um método
-    {
-        if(amount <= 0){
-            logger.Log($"Não é possível depositar {amount} na conta de {_nome}");
-            return;
+namespace testando_namespace{
+    //classe criada para criar os métodos de extensão
+    static class Extensoes_String{
+        public static void WriteLine(this string texto, ConsoleColor cor){
+            Console.ForegroundColor = cor;
+            System.Console.WriteLine(texto);
+            Console.ResetColor();
         }
-        Balance += amount;//soma composta com atribuição
+        public static string LimpaString(this string texto){
+            texto = "";
+            return texto;
+        }
+
+        //métodos de extensão pode ser usado para quase qualquer coisa
+        public static void TestLogger(this ILogger logger){
+            
+        }
+    }
+
+    //Criando um delegate: delegate <tipo_retorno>
+    delegate int Calcular(int x, int y);
+
+    //Criando tipo generico: class <nome><palavra reservada T>
+    class DataStore<T>
+    {
+        public T Value{get;set;}
+    }
+
+    class FileLogger : ILogger //outra classe concreta implementando a interface
+    {
+        private readonly string filePath;
+
+        public FileLogger(string filePath)
+        {
+            this.filePath = filePath;
+        }
+        public void Log(string message)
+        {
+            File.AppendAllText(filePath, message);//gera um arquivo de log
+        }
+    }
+
+    class ConsoleLogger : ILogger //classe concreta implementando a interface
+    {
+        public void Log(string message)
+        {
+            System.Console.WriteLine($"\n LOGGER: {message}{Environment.NewLine}");
+        }
+    }
+
+    interface ILogger//por padrão todos os membros da interface são publicos
+    {
+        void Log(string message);//métodos abstratos por padrão não tem corpo,mas no c# 8 em diante pode ter uma implementacao
+        //exemplificando implementacao padrao
+        /*void Log(string message){
+            System.Console.WriteLine($"\n LOGGER: {message}{Environment.NewLine}");
+        }*/
+    }
+
+    class BankAccount //declaração de uma classe
+    {
+        private readonly ILogger logger; //criando o logger
+
+        public string Branch;
+
+        public string Name{
+            get; private set;
+        }
+
+        public decimal Balance 
+        { 
+            get; private set;
+        }
+
+        //Esse construtor redireciona para o outro construtor
+        [JsonConstructor]//atributo necessário
+        public BankAccount(string name, decimal balance) : this(name, balance, new ConsoleLogger())
+        {
+            
+        }
+
+        public BankAccount(string nome, decimal balance, ILogger logger){
+            if(string.IsNullOrWhiteSpace(nome))
+                throw new ArgumentException("Nome inválido",nameof(nome));
+            if(balance < 0)
+                throw new Exception("Saldo não pode ser negativo");
+            Name = nome;
+            Balance = balance;
+            this.logger = logger; //interface readonly só pode ser atribuida no construtor, fora acusa erro
+        }
+
+        public void Deposit(decimal amount)//mexer na variável direto não é correto, pra isso cria-se um método
+        {
+            if(amount <= 0){
+                logger.Log($"Não é possível depositar {amount} na conta de {Name}");
+                return;
+            }
+            Balance += amount;//soma composta com atribuição
+        }
     }
 }

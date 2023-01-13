@@ -1,0 +1,5 @@
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\publish\dotnet.exe
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\publish\dotnet.dll
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\publish\dotnet.deps.json
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\publish\dotnet.runtimeconfig.json
+C:\Users\Wiser\Documents\Codigos\dotnet\bin\Debug\net7.0\publish\dotnet.pdb
