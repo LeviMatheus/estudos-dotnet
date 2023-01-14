@@ -29,3 +29,5 @@
 <li>Programação Assincrona</li>
 <li>Código para publicar a aplicação</li>
 </ul>
+
+<p> Este repositório seguiu este vídeo como base <a href="https://youtu.be/oTivhgjbhIg">Vídeo</a>.</p>
