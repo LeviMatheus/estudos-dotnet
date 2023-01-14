@@ -5,7 +5,8 @@
 
 <p>Repositório para concentrar meus projetos de estudos .NET</p>
 
-<h2>Projeto para implementação de códigos úteis utilizando C# .NET</h2>
+<h2>Projeto 1 (Projeto_CodigosUteis)</h2>
+<h3>Projeto para implementação de códigos úteis utilizando C# .NET</h3>
 
 <ul>
 <li>Arrays</li>
@@ -27,7 +28,7 @@
 <li>Serialização JSON</li>
 <li>LINQ (Query Integrated Language) e Enumerables</li>
 <li>Programação Assincrona</li>
-<li>Código para publicar a aplicação</li>
+<li>Código para publicar a aplicação .NET</li>
 </ul>
 
 <p> Este repositório seguiu este vídeo como base <a href="https://youtu.be/oTivhgjbhIg">Vídeo</a>.</p>
