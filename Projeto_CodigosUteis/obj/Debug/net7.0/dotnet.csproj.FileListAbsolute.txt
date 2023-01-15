@@ -13,3 +13,18 @@ C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\refint\dotnet.dll
 C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.pdb
 C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\dotnet.genruntimeconfig.cache
 C:\Users\Wiser\Documents\Codigos\dotnet\obj\Debug\net7.0\ref\dotnet.dll
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.csproj.AssemblyReference.cache
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.AssemblyInfoInputs.cache
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.AssemblyInfo.cs
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.csproj.CoreCompileInputs.cache
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.dll
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\refint\dotnet.dll
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.pdb
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\bin\Debug\net7.0\dotnet.exe
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\bin\Debug\net7.0\dotnet.deps.json
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\bin\Debug\net7.0\dotnet.runtimeconfig.json
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\bin\Debug\net7.0\dotnet.dll
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\bin\Debug\net7.0\dotnet.pdb
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\dotnet.genruntimeconfig.cache
+G:\Meu Drive\Estudo\C#\dotnet\Projeto_CodigosUteis\obj\Debug\net7.0\ref\dotnet.dll

@@ -43,7 +43,7 @@ class Test
 }
 
 class Program{
-    static async void Main(string[] argumentos)//esse método precisa ser statico e precisa ter a primeira letra maiúscula
+    static async Task Main(string[] argumentos)//esse método precisa ser statico e precisa ter a primeira letra maiúscula
     {
         #region Arrays
         string[] nomes = {  "Levi", "Maria" };
@@ -399,7 +399,7 @@ class Program{
         //enum vazio
         var enum_vazio = Enumerable.Empty<int>();
 
-        //usando range
+        //usando rangeaplicação
         var random = new Random();
         var range = Enumerable.Range(0,5);
         //usando o range para pegar 5 números aleatórios de 1 a 99
@@ -426,7 +426,9 @@ class Program{
         });
         System.Console.WriteLine("Pronto");
         System.Console.ReadLine();*/
-        await rodar_async();
+        Task<int> mult_assincrona = calculo_async(3,3);
+        int result_assync = await mult_assincrona;
+        Console.WriteLine(result_assync);
         Console.ReadKey();
         #endregion
 
@@ -447,16 +449,10 @@ class Program{
 
     //método com palavra reservada async, permitindo usar a palaavra await em Task métodos
     //métodos assincronos sempre retornam uma task
-    static async Task<int> rodar_async(){
-        System.Console.WriteLine("Executando...");
-        var task = await Task.Run(() => 
-        {
-            Thread.Sleep(5000);
-            System.Console.WriteLine("Acordou...");
-            return 42;
-        });
-        var result = task;
-        return result;
+    public static async Task<int> calculo_async(int n1, int n2){
+        System.Console.WriteLine("Calculando...");
+        await Task.Delay(5000);
+        return n1+n2;
     }
 }
 
