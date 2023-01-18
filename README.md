@@ -3,11 +3,9 @@
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![CSharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-<p>Repositório para concentrar meus projetos de estudos .NET</p>
+<h2>Repositório para concentrar meus projetos de estudos .NET</h2>
 
-<h2>Projeto 1 (Projeto_CodigosUteis)</h2>
-<h3>Projeto para implementação de códigos úteis utilizando C# .NET</h3>
-
+<h3>Básico dotnet: Projeto para aprendizado de códigos simples e introdutórios do .NET</h3>
 <ul>
 <li>Arrays</li>
 <li>Argumentos na Execução</li>
@@ -29,6 +27,11 @@
 <li>LINQ (Query Integrated Language) e Enumerables</li>
 <li>Programação Assincrona</li>
 <li>Código para publicar a aplicação .NET</li>
+<li>Este repositório seguiu este vídeo como base <a href="https://youtu.be/oTivhgjbhIg">Vídeo</a>.</li>
 </ul>
 
-<p> Este repositório seguiu este vídeo como base <a href="https://youtu.be/oTivhgjbhIg">Vídeo</a>.</p>
+<h3>Básico Orientacao a Objetos: Projeto para aprendizado de orientação a objetos com .NET</h3>
+<h3>Básico em Tratamento de Exceções: Projeto para aprendizado de tratamento de exceções com .NET</h3>
+<h3>Básico Teste AAA e Básico xUnit: Projetos para aprendizado de testes unitários com .NET</h3>
+<h3>Basico_RabbitMQ: Projetos para aprendizado de mensageria através do RabbitMQ com .NET</h3>
+<h3>Basico_EntityFramework: Projeto para aprendizado de ORM EntityFramework Core com .NET</h3>
