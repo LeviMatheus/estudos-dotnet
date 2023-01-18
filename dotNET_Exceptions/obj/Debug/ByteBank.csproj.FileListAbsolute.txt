@@ -1,0 +1,8 @@
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\obj\Debug\ByteBank.csproj.AssemblyReference.cache
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\obj\Debug\ByteBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\Wiser\Documents\Codigos\ByteBank-exception-master\ByteBank\obj\Debug\ByteBank.pdb

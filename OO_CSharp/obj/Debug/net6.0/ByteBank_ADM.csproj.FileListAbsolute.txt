@@ -1,0 +1,15 @@
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.AssemblyReference.cache
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.AssemblyInfoInputs.cache
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.AssemblyInfo.cs
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.deps.json
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.dll
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.pdb
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.dll
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\refint\ByteBank_ADM.dll
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.pdb
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ref\ByteBank_ADM.dll
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.exe
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank_ADM.runtimeconfig.json
+C:\Users\Wiser\source\repos\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.genruntimeconfig.cache
