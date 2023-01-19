@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Basico_RabbitMQ_Producer
-build_property.ProjectDir = G:\Meu Drive\Estudo\C#\dotnet\mensageria_rabbitmq\Send\
+build_property.ProjectDir = D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_RabbitMQ\Send\

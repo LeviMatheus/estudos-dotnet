@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora.Tests\\Basico_xUnit.csproj": {}
+    "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora.Tests\\Basico_xUnit.csproj": {}
   },
   "projects": {
-    "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora.Tests\\Basico_xUnit.csproj": {
+    "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora.Tests\\Basico_xUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora.Tests\\Basico_xUnit.csproj",
+        "projectUniqueName": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora.Tests\\Basico_xUnit.csproj",
         "projectName": "Basico_xUnit",
-        "projectPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora.Tests\\Basico_xUnit.csproj",
+        "projectPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora.Tests\\Basico_xUnit.csproj",
         "packagesPath": "C:\\Users\\levim\\.nuget\\packages\\",
-        "outputPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora.Tests\\obj\\",
+        "outputPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

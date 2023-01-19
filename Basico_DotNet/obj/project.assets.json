@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\Basico_DotNet\\Basico_DotNet.csproj",
+      "projectUniqueName": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_DotNet\\Basico_DotNet.csproj",
       "projectName": "Basico_DotNet",
-      "projectPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\Basico_DotNet\\Basico_DotNet.csproj",
+      "projectPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_DotNet\\Basico_DotNet.csproj",
       "packagesPath": "C:\\Users\\levim\\.nuget\\packages\\",
-      "outputPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\Basico_DotNet\\obj\\",
+      "outputPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_DotNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

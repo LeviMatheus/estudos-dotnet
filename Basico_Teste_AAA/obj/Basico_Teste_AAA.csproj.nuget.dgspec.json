@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Meu Drive\\Estudo\\C#\\dotnet\\teste_AAA_4passos\\Basico_Teste_AAA.csproj": {}
+    "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_Teste_AAA\\Basico_Teste_AAA.csproj": {}
   },
   "projects": {
-    "G:\\Meu Drive\\Estudo\\C#\\dotnet\\teste_AAA_4passos\\Basico_Teste_AAA.csproj": {
+    "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_Teste_AAA\\Basico_Teste_AAA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\teste_AAA_4passos\\Basico_Teste_AAA.csproj",
+        "projectUniqueName": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_Teste_AAA\\Basico_Teste_AAA.csproj",
         "projectName": "Basico_Teste_AAA",
-        "projectPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\teste_AAA_4passos\\Basico_Teste_AAA.csproj",
+        "projectPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_Teste_AAA\\Basico_Teste_AAA.csproj",
         "packagesPath": "C:\\Users\\levim\\.nuget\\packages\\",
-        "outputPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\teste_AAA_4passos\\obj\\",
+        "outputPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_Teste_AAA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

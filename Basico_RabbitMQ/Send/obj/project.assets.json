@@ -164,11 +164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\mensageria_rabbitmq\\Send\\Basico_RabbitMQ_Producer.csproj",
+      "projectUniqueName": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_RabbitMQ\\Send\\Basico_RabbitMQ_Producer.csproj",
       "projectName": "Basico_RabbitMQ_Producer",
-      "projectPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\mensageria_rabbitmq\\Send\\Basico_RabbitMQ_Producer.csproj",
+      "projectPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_RabbitMQ\\Send\\Basico_RabbitMQ_Producer.csproj",
       "packagesPath": "C:\\Users\\levim\\.nuget\\packages\\",
-      "outputPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\mensageria_rabbitmq\\Send\\obj\\",
+      "outputPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_RabbitMQ\\Send\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
