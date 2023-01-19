@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Meu Drive\\Estudo\\C#\\dotnet\\EntityFramework\\Basico_EntityFramework.csproj": {}
+    "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_EntityFramework\\Basico_EntityFramework.csproj": {}
   },
   "projects": {
-    "G:\\Meu Drive\\Estudo\\C#\\dotnet\\EntityFramework\\Basico_EntityFramework.csproj": {
+    "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_EntityFramework\\Basico_EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\EntityFramework\\Basico_EntityFramework.csproj",
+        "projectUniqueName": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_EntityFramework\\Basico_EntityFramework.csproj",
         "projectName": "Basico_EntityFramework",
-        "projectPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\EntityFramework\\Basico_EntityFramework.csproj",
+        "projectPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_EntityFramework\\Basico_EntityFramework.csproj",
         "packagesPath": "C:\\Users\\levim\\.nuget\\packages\\",
-        "outputPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\EntityFramework\\obj\\",
+        "outputPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
