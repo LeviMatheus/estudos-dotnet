@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "REpefIrvUey7ONr1jUzo2cvB3qNoUwT1NaMZSmETTDZx0RcY50pAYqElKTSHLQ9plT9jlhCR9HLUejbD2EhLhg==",
+  "dgSpecHash": "1wlBQhP3IGBtHXzrmOa6IhHRIJQHcUGMADr945mJQlTtKn08VrVToItCxT/U1TmHnBN/l+NywzMWcx+u7YloQQ==",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\mensageria_rabbitmq\\Send\\Basico_RabbitMQ_Producer.csproj",
+  "projectFilePath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_RabbitMQ\\Send\\Basico_RabbitMQ_Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levim\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\levim\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",

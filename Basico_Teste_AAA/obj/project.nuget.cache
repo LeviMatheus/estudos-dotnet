@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xBKRfkN8KTlC353qJdIUHkMT+oF2q/i6m7iRXghhCb5ENWbF28fF1ZQ+5FpkKxhuXZrtPP3NETPvHXyTQ5yf6w==",
+  "dgSpecHash": "f/MeHCH36dW1poLlNw88mk6nRx7p3p9ocypUcfkN6lUSmEtQrndsFyy18SIC9T9eLA5EGsR2fVhDgPlD1mc1yg==",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\teste_AAA_4passos\\Basico_Teste_AAA.csproj",
+  "projectFilePath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_Teste_AAA\\Basico_Teste_AAA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levim\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\levim\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

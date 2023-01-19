@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WX8n+pnrv+A+AZQ0P9rrKooPakBN452O5JMGqVMMSRbPzPFQZk54zISkqhr3FtTbqtv5nIiYBKPq/Xmz/EKpSg==",
+  "dgSpecHash": "QY2Wl/sHtt8debuB9MPhAI9PULMQ9UyjWoRprWGvb5qF8+tQ+n3/d9IskmCMbI4/mPPj7EBKP1kWkYAQflxBKw==",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\EntityFramework\\Basico_EntityFramework.csproj",
+  "projectFilePath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_EntityFramework\\Basico_EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levim\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\levim\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

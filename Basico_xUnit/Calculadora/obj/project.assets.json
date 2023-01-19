@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora\\Calculadora.csproj",
+      "projectPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\levim\\.nuget\\packages\\",
-      "outputPath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora\\obj\\",
+      "outputPath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

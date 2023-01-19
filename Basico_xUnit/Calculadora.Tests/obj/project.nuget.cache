@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uVxkJFmeBuWTIFAei2t8LFfv4r4ZsumBwwHQHJ/Onhg19NRGaaKzOrvzKQwVC9PFuQVQldSnpBhK8HYwCC7S6A==",
+  "dgSpecHash": "HPIYdgDxJNXik08EZ9ijaI3N2uQr22JdZyqAF98Uk1NNZLUcthsOTGO4Ak3oc5Whw9lOUOj5BVNKdaqyXlmV+w==",
   "success": true,
-  "projectFilePath": "G:\\Meu Drive\\Estudo\\C#\\dotnet\\xUnit_calculadora\\Calculadora.Tests\\Basico_xUnit.csproj",
+  "projectFilePath": "D:\\Cursos e Estudos\\DotNet\\Estudos-dotnet\\Basico_xUnit\\Calculadora.Tests\\Basico_xUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levim\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\levim\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
