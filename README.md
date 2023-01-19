@@ -5,7 +5,7 @@
 
 <h2>Repositório para concentrar meus projetos de estudos .NET</h2>
 
-<h3>Básico dotnet: Projeto para aprendizado de códigos simples e introdutórios do .NET</h3>
+<h3># Básico dotnet: Projeto para aprendizado de códigos simples e introdutórios do .NET</h3>
 <ul>
 <li>Arrays</li>
 <li>Argumentos na Execução</li>
@@ -30,8 +30,8 @@
 <li>Este repositório seguiu este vídeo como base <a href="https://youtu.be/oTivhgjbhIg">Vídeo</a>.</li>
 </ul>
 
-<h3>Básico Orientacao a Objetos: Projeto para aprendizado de orientação a objetos com .NET</h3>
-<h3>Básico em Tratamento de Exceções: Projeto para aprendizado de tratamento de exceções com .NET</h3>
-<h3>Básico Teste AAA e Básico xUnit: Projetos para aprendizado de testes unitários com .NET</h3>
-<h3>Basico_RabbitMQ: Projetos para aprendizado de mensageria através do RabbitMQ com .NET</h3>
-<h3>Basico_EntityFramework: Projeto para aprendizado de ORM EntityFramework Core com .NET</h3>
+<h3># Básico Orientacao a Objetos: Projeto para aprendizado de orientação a objetos com .NET</h3>
+<h3># Básico em Tratamento de Exceções: Projeto para aprendizado de tratamento de exceções com .NET</h3>
+<h3># Básico Teste AAA e Básico xUnit: Projetos para aprendizado de testes unitários com .NET</h3>
+<h3># Basico_RabbitMQ: Projetos para aprendizado de mensageria através do RabbitMQ com .NET</h3>
+<h3># Basico_EntityFramework: Projeto para aprendizado de ORM EntityFramework Core com .NET</h3>
