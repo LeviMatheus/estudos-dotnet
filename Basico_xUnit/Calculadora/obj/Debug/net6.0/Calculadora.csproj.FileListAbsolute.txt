@@ -10,15 +10,3 @@ C:\Users\Wiser\source\repos\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora
 C:\Users\Wiser\source\repos\Calculadora\Calculadora\obj\Debug\net6.0\refint\Calculadora.dll
 C:\Users\Wiser\source\repos\Calculadora\Calculadora\obj\Debug\net6.0\Calculadora.pdb
 C:\Users\Wiser\source\repos\Calculadora\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\bin\Debug\net6.0\Calculadora.deps.json
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\bin\Debug\net6.0\Calculadora.dll
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\bin\Debug\net6.0\Calculadora.pdb
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.csproj.AssemblyReference.cache
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfoInputs.cache
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.AssemblyInfo.cs
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.csproj.CoreCompileInputs.cache
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.dll
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\refint\Calculadora.dll
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\Calculadora.pdb
-D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_xUnit\Calculadora\obj\Debug\net6.0\ref\Calculadora.dll
