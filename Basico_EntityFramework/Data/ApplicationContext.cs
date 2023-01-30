@@ -7,7 +7,9 @@ namespace Basico_EntityFramework.Data
     public class ApplicationContext : DbContext
     {
         //tabelas
-        DbSet<Pedido> pedidos { get; set; }
+        DbSet<Pedido> Pedidos { get; set; }
+        DbSet<Produto> Produtos { get; set; }
+        DbSet<Cliente> Clientes { get; set; }
 
         //sobrescrita da string de conexão
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

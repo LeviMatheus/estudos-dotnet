@@ -69,3 +69,8 @@ D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\obj\Debug\net7.
 D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\obj\Debug\net7.0\Basico_EntityFramework.pdb
 D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\obj\Debug\net7.0\Basico_EntityFramework.genruntimeconfig.cache
 D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\obj\Debug\net7.0\ref\Basico_EntityFramework.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\bin\Debug\net7.0\Humanizer.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\bin\Debug\net7.0\System.CodeDom.dll

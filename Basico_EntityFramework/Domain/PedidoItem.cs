@@ -11,6 +11,6 @@ namespace Basico_EntityFramework.Domain
         public int Quantidade { get; set; }
         public double Valor { get; set; }
         public double Desconto { get; set; }
-        public object ProdutoId { get; set; }
+        public int ProdutoId { get; set; }
     }
 }
