@@ -4,6 +4,6 @@
     {
         Analise,
         Finalizado,
-
+        Entregue
     }
 }
