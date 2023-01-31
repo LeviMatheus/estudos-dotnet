@@ -7,7 +7,7 @@ namespace Comercio.API.Repositories
         /* CRUD - Criar, Ler, Atualizar e Deletar */
 
         //Listar usuarios
-        List<Usuario> get();
+        List<Usuario> Get();
         //Buscar um usuário específico
         Usuario Get(int id);
         //Adicionar um usuário

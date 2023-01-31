@@ -16,7 +16,7 @@ namespace Comercio.API.Repositories
             _db.Remove(Get(id));
         }
 
-        public List<Usuario> get()
+        public List<Usuario> Get()
         {
             return _db;
         }
