@@ -20,10 +20,10 @@ namespace Comercio.Models
 
         public Contato? Contato { get; set;}
 
+        public ICollection<EnderecoEntrega>? EnderecosEntrega { get; set; }
+
         /*
          * TODO - Vincular com as classes
-         * - Contato
-         * - EnderecoEntrega
          * - Departamento
          * */
     }
