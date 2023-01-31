@@ -22,9 +22,7 @@ namespace Comercio.Models
 
         public ICollection<EnderecoEntrega>? EnderecosEntrega { get; set; }
 
-        /*
-         * TODO - Vincular com as classes
-         * - Departamento
-         * */
+
+        public ICollection<Departamento>? Departamentos { get; set; }
     }
 }
