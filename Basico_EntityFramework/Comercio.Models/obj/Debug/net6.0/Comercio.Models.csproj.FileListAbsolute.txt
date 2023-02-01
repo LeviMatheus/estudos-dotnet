@@ -1,0 +1,12 @@
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\bin\Debug\net6.0\Comercio.Models.deps.json
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\bin\Debug\net6.0\Comercio.Models.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\bin\Debug\net6.0\Comercio.Models.pdb
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.csproj.AssemblyReference.cache
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.AssemblyInfoInputs.cache
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.AssemblyInfo.cs
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.csproj.CoreCompileInputs.cache
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\refint\Comercio.Models.dll
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\Comercio.Models.pdb
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_EntityFramework\Comercio.Models\obj\Debug\net6.0\ref\Comercio.Models.dll
