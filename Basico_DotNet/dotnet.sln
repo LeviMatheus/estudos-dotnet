@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comercio.API", "..\Basico_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comercio.Models", "..\Basico_EntityFramework\Comercio.Models\Comercio.Models.csproj", "{42564128-2F1E-4F3F-9844-6DF882266752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basico_MauiApp", "..\Basico_MauiApp\Basico_MauiApp.csproj", "{FECE0A7E-2688-426C-AA25-B5C998F544F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,12 @@ Global
 		{42564128-2F1E-4F3F-9844-6DF882266752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42564128-2F1E-4F3F-9844-6DF882266752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42564128-2F1E-4F3F-9844-6DF882266752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECE0A7E-2688-426C-AA25-B5C998F544F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECE0A7E-2688-426C-AA25-B5C998F544F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECE0A7E-2688-426C-AA25-B5C998F544F7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FECE0A7E-2688-426C-AA25-B5C998F544F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECE0A7E-2688-426C-AA25-B5C998F544F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECE0A7E-2688-426C-AA25-B5C998F544F7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
