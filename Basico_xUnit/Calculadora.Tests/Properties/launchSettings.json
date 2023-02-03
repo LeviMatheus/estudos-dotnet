@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Basico_xUnit": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56755;http://localhost:56761"
+    }
+  }
+}
