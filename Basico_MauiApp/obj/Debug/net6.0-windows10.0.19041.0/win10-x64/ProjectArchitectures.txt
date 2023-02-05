@@ -1,0 +1,1 @@
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_MauiApp\Basico_MauiApp.csproj;x64

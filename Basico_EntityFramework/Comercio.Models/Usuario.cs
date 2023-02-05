@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,7 @@ namespace Comercio.Models
         public string? SituacaoCadastro { get; set; }
         public DateTimeOffset DataCadastro { get; set; }//Datetime com localização
 
+        [ForeignKey]
         public Contato? Contato { get; set;}
 
         public ICollection<EnderecoEntrega>? EnderecosEntrega { get; set; }

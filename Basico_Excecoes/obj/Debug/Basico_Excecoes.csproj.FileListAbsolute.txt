@@ -1,0 +1,8 @@
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\bin\Debug\ByteBank.exe.config
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\bin\Debug\ByteBank.exe
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\bin\Debug\ByteBank.pdb
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\obj\Debug\Basico_Excecoes.csproj.AssemblyReference.cache
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\obj\Debug\Basico_Excecoes.csproj.SuggestedBindingRedirects.cache
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\obj\Debug\Basico_Excecoes.csproj.CoreCompileInputs.cache
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\obj\Debug\ByteBank.exe
+D:\Cursos e Estudos\DotNet\Estudos-dotnet\Basico_Excecoes\obj\Debug\ByteBank.pdb
