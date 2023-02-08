@@ -22,12 +22,9 @@ namespace Comercio.Models
         public string? SituacaoCadastro { get; set; }
         public DateTimeOffset DataCadastro { get; set; }//Datetime com localização
 
-        [ForeignKey]
+        //Relacionamento entre as classes
         public Contato? Contato { get; set;}
-
         public ICollection<EnderecoEntrega>? EnderecosEntrega { get; set; }
-
-
         public ICollection<Departamento>? Departamentos { get; set; }
     }
 }
